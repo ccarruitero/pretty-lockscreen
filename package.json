@@ -1,0 +1,44 @@
+{
+  "name": "pretty-lockscreen",
+  "description": "alternative Lock Screen for Firefox OS",
+  "version": "0.1.0",
+  "homepage": "https://github.com/ccarruitero/pretty-lockscreen",
+  "author": {
+    "name": "Cesar Carruitero",
+    "email": "cesar@mozilla.pe"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ccarruitero/pretty-lockscreen.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ccarruitero/pretty-lockscreen/issues"
+  },
+  "licenses": [
+    {
+      "type": "MPL",
+      "url": "https://github.com/ccarruitero/pretty-lockscreen/blob/master/LICENSE"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-clean": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-qunit": "*",
+    "grunt-contrib-cssmin": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-contrib-concat": "*",
+    "grunt-dom-munger": "*",
+    "grunt-zip": "*",
+    "bower": "*",
+    "grunt": "*"
+  }
+}
