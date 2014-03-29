@@ -5,7 +5,7 @@ let PrettyLockScreen = {
 
   setPoints: function(npoints) {
     var parentDiv = document.querySelector('#app');
-    for (var i=0; i < npoints;i++){
+    for (var i=0; i < npoints; i++){
       this.createPoint(parentDiv, i);
     }
   },
