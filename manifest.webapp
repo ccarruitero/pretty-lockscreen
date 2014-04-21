@@ -2,12 +2,19 @@
   "name": "Pretty Lock Screen",
   "description": "alternative Lock Screen for Firefox OS",
   "launch_path": "/index.html",
-  "version": "1.0.1",
+  "type": "certified",
   "developer": {
     "name": "Cesar Carruitero",
     "url": "https://github.com/ccarruitero/pretty-lockscreen"
-  },  
-  "locales": {    
+  },
+  "permissions": {
+    "webapps-manage": {},
+    "systemXHR": {},
+    "settings": {
+      "access": "readwrite"
+    }
+  },
+  "locales": {
     "en": {
       "name": "Pretty Lock Screen",
       "description": "alternative Lock Screen for Firefox OS"
@@ -15,14 +22,16 @@
     "es": {
       "name": "Pretty Lock Screen",
       "description": "Lock Screen alternativo para Firefox OS"
-    }   
+    }
   },
   "default_locale": "en",
   "icons": {
-	  "128": "/icons/128.png",
+    "128": "/icons/128.png",
     "120": "/icons/120.png",
-    "64": "/icons/64.png",
-    "60": "/icons/60.png"
+    "60": "/icons/60.png",
+    "30": "/icons/30.png"
   },
-  "orientation": ["portrait"]
+  "orientation": [
+    "portrait"
+  ]
 }
